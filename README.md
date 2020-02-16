@@ -7,7 +7,7 @@ Utilities to determine if string is any of the following null, empty, undefined,
 [npm][]:
 
 ```sh
-TBD
+npm install is-empty-null-undef-nan-whitespace --save
 ```
 
 ## Usage
