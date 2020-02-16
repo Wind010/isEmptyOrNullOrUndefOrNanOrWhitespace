@@ -1,0 +1,29 @@
+{
+  "name": "iswhitespace",
+  "version": "1.0.0",
+  "description": "Utilities to determine if string is any of the following null, empty, undefined, NaN, or whitespace.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wind010/isWhitespace.git"
+  },
+  "keywords": [
+    "null",
+    "whitespace",
+    "NaN",
+    "undefined",
+    "empty",
+    "BOM",
+    "Unicode",
+    "Emoji"
+  ],
+  "author": "Jeff Tong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wind010/isWhitespace/issues"
+  },
+  "homepage": "https://github.com/Wind010/isWhitespace#readme"
+}
