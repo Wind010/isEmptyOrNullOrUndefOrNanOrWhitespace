@@ -2,9 +2,9 @@
   "name": "iswhitespace",
   "version": "1.0.0",
   "description": "Utilities to determine if string is any of the following null, empty, undefined, NaN, or whitespace.",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha \"tests/**/tests.*js\""
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/Wind010/isWhitespace/issues"
   },
-  "homepage": "https://github.com/Wind010/isWhitespace#readme"
+  "homepage": "https://github.com/Wind010/isWhitespace#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  },
+  "dependencies": {
+    "@types/node": "^13.7.1"
+  }
 }
