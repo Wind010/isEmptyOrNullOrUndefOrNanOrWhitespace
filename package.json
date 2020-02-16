@@ -1,5 +1,5 @@
 {
-  "name": "isEmptyOrNullOrUndefOrNanOrWhitespace",
+  "name": "@wind0/isEmptyOrNullOrUndefOrNanOrWhitespace",
   "version": "1.0.0",
   "description": "Utilities to determine if string is any of the following null, empty, undefined, NaN, or whitespace.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Wind010/isWhitespace.git"
+    "url": "git+https://github.com/Wind010/isEmptyOrNullOrUndefOrNanOrWhitespace.git"
   },
   "keywords": [
     "null",
@@ -23,9 +23,9 @@
   "author": "Jeff Tong",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Wind010/isWhitespace/issues"
+    "url": "https://github.com/Wind010/isEmptyOrNullOrUndefOrNanOrWhitespace/issues"
   },
-  "homepage": "https://github.com/Wind010/isWhitespace#readme",
+  "homepage": "https://github.com/Wind010/isEmptyOrNullOrUndefOrNanOrWhitespace#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.0.1"
