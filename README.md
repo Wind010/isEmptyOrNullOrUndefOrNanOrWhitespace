@@ -31,7 +31,7 @@ isEmptyOrNullOrUndefOrNanOrWhitespace('\r') // => true
 isEmptyOrNullOrUndefOrNanOrWhitespace('\t') // => true
 isEmptyOrNullOrUndefOrNanOrWhitespace('\u00a0') // => true
 isEmptyOrNullOrUndefOrNanOrWhitespace(32) // Chacter code checks => true  
-
+```
 
 ## License
 
