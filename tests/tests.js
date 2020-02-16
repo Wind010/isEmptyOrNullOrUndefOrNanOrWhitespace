@@ -29,16 +29,30 @@ describe('StringUtils', function() {
             });
         });
 
-        context('argument is empty', function() {
+        context('argument is empty with single quoted string', function() {
             it('should return true', function() {
                 let isNullOrWhitespace = isEmptyOrNullOrUndefOrNanOrWhitespace('');
                 expect(isNullOrWhitespace).to.equal(true);
             });
         });
 
-        context('argument is space', function() {
+        context('argument is empty with double quoted string', function() {
+            it('should return true', function() {
+                let isNullOrWhitespace = isEmptyOrNullOrUndefOrNanOrWhitespace("");
+                expect(isNullOrWhitespace).to.equal(true);
+            });
+        });
+
+        context('argument is space with single quoted string', function() {
             it('should return true', function() {
                 let isNullOrWhitespace = isEmptyOrNullOrUndefOrNanOrWhitespace(' ');
+                expect(isNullOrWhitespace).to.equal(true);
+            });
+        });
+
+        context('argument is space with double quoted string', function() {
+            it('should return true', function() {
+                let isNullOrWhitespace = isEmptyOrNullOrUndefOrNanOrWhitespace(" ");
                 expect(isNullOrWhitespace).to.equal(true);
             });
         });
