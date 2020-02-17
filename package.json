@@ -1,6 +1,6 @@
 {
   "name": "is-empty-null-undef-nan-whitespace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilities to determine if string is any of the following null, empty, undefined, NaN, or whitespace.",
   "main": "index.js",
   "scripts": {
