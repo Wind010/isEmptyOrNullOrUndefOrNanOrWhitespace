@@ -1,7 +1,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const StringUtils = require('../src/index.js'); 
+const StringUtils = require('../index.js'); 
 const isEmptyOrNullOrUndefOrNanOrWhitespace = StringUtils.isEmptyOrNullOrUndefOrNanOrWhitespace;
 
 
