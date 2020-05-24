@@ -13,7 +13,10 @@ npm install is-empty-null-undef-nan-whitespace --save
 ## Usage
 
 ```js
-const StringUtils = require('StringUtils');
+
+import StringUtils from 'is-empty-null-undef-nan-whitespace';
+//or
+const StringUtils = require('is-empty-null-undef-nan-whitespace');
 const isEmptyOrNullOrUndefOrNanOrWhitespace = StringUtils.isEmptyOrNullOrUndefOrNanOrWhitespace;
 
 isEmptyOrNullOrUndefOrNanOrWhitespace('x') // => false
